@@ -12,6 +12,8 @@
 		24D9C8252295A4D20051F823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9C8232295A4D20051F823 /* Main.storyboard */; };
 		24D9C8272295A4D60051F823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D9C8262295A4D60051F823 /* Assets.xcassets */; };
 		24D9C82A2295A4D60051F823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D9C8282295A4D60051F823 /* LaunchScreen.storyboard */; };
+		24D9C8332295A5B40051F823 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9C8312295A5B30051F823 /* Person.swift */; };
+		24D9C8342295A5B40051F823 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9C8322295A5B40051F823 /* DBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		24D9C8262295A4D60051F823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D9C8292295A4D60051F823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D9C82B2295A4D60051F823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D9C8312295A5B30051F823 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		24D9C8322295A5B40051F823 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				24D9C81F2295A4D20051F823 /* AppDelegate.swift */,
 				24D9C8212295A4D20051F823 /* ViewController.swift */,
+				24D9C8322295A5B40051F823 /* DBHelper.swift */,
+				24D9C8312295A5B30051F823 /* Person.swift */,
 				24D9C8232295A4D20051F823 /* Main.storyboard */,
 				24D9C8262295A4D60051F823 /* Assets.xcassets */,
 				24D9C8282295A4D60051F823 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D9C8332295A5B40051F823 /* Person.swift in Sources */,
 				24D9C8222295A4D20051F823 /* ViewController.swift in Sources */,
 				24D9C8202295A4D20051F823 /* AppDelegate.swift in Sources */,
+				24D9C8342295A5B40051F823 /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
